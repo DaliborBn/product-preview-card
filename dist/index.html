@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Preview Card</title>
+</head>
+<body class="min-vh-100 mx-4 bg-cream d-flex flex-column justify-content-center align-items-center">
+
+  <div class="container custom-container bg-white rounded-4 overflow-hidden p-0">
+      <div class="row g-0">
+
+      <div class="col-md-6">
+        <img class="object-fit-cover w-100 m-auto d-md-none" src="img/image-product-mobile.jpg" alt="image-product-mobile">
+        <img class="d-none d-md-block object-fit-cover w-100 m-auto" src="img/image-product-desktop.jpg" alt="image-product-desktop">
+      </div>
+
+      <div class="col-md-6 description d-flex flex-column justify-content-between">
+        <div>
+          <h3 class="text-g-blue">PERFUME</h3>
+          <h2 class="font-monospace fw-bold lh-1 text-d-blue my-4 my-md-5">Gabrielle Essence Eau De Parfum</h2>
+          <p class="text-g-blue">A floral, solar and voluptuous inerpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+          <div class="d-flex flex-row align-items-center price">
+            <h2 class="font-monospace text-d-cyan me-4">$149.99</h2>
+            <p class="text-g-blue text-decoration-line-through">$169.99</p>
+          </div>
+        </div>
+        <a class="w-100 btn btn-d-cyan custom-btn p-4 rounded-4 overflow-hidden d-flex flex-row justify-content-center align-items-center" href="https://daliborbn.github.io/loopstudios-landing-page/" role="button">
+          <img src="img/icon-cart.svg" alt="icon-cart">
+          <p class="text-white ms-3 fw-bold">Add to Cart</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>

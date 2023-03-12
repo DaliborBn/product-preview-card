@@ -1,0 +1,47 @@
+@import 'utilitie';
+
+h2 {
+  font-size: 3.2rem;
+}
+h3, p {
+  font-size: 1.4rem;
+}
+.description {
+  padding: 2.5rem;
+}
+.description h3 {
+  letter-spacing: 0.5rem;
+}
+.price {
+  margin-top: 2rem;
+}
+.custom-btn {
+  margin-top: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 75rem;
+  }
+  .description {
+    padding: 4rem;
+  }
+  .description > div > p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  h2 {
+  font-size: 4.2rem;
+  }
+  h3, p {
+    font-size: 1.5rem;
+  }
+  .price {
+    margin-top: 2.7rem;
+  }
+  a img {
+    width: 8%;
+  }
+}
+
